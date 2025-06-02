@@ -7,12 +7,13 @@ numbers
 undefined
 symbol
 bigInt
+stack memory
 
            Refrence data types:-
 objects
 arrays
 functions
-
+ heap memory
 
 ******/
 
