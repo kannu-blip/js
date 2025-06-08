@@ -44,4 +44,14 @@ const Users = [
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+// -----------------------------------------DESTRUCTURING OF OBJECTS-------------------------------------------//
+const course = {
+    coursename : "js",
+    price : "999",
+    Instructer : "hitesh"
+}
+const {coursename} = course
+console.log(coursename);
+
