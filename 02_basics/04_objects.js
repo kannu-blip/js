@@ -50,8 +50,10 @@ const Users = [
 const course = {
     coursename : "js",
     price : "999",
-    Instructer : "hitesh"
+    courseInstructer : "hitesh"
 }
 const {coursename} = course
-console.log(coursename);
+// console.log(coursename);
+const{courseInstructer: instructur} = course
+console.log(instructur)
 
