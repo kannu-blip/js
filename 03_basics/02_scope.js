@@ -1,12 +1,14 @@
-// var c = 100                  //global variable 
+// var c = 100                              //global variable 
 let a = 300
 if (true){
     let a = 10
     const b = 20
-    console.log("Inner: ", a);
+    console.log("Inner: ", a);              //local scope
     
 }
-for (let i = 0; i < array)
+for (let i = 0; i < array.length; i++){
+    const element = array[i];
+}
 
 console.log(a);
 // console.log(b);
