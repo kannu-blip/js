@@ -1,15 +1,26 @@
-// var c = 100                              //global variable 
-let a = 300
+ var c = 100                              //global variable 
+ let a = 300
 if (true){
     let a = 10
     const b = 20
-    console.log("Inner: ", a);              //local scope
+    // console.log("Inner: ", a);              //local scope
     
 }
-for (let i = 0; i < array.length; i++){
-    const element = array[i];
-}
+// for (let i = 0; i < array.length; i++){
+    // const element = array[i];
+// }
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
+
+function one() {
+    const username = "kannu"
+    function two(){
+        const website = "youtube"
+        console.log(username);
+    }
+    two()
+}
+// one()
+
